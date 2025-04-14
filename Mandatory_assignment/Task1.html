@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+    <style>
+        /* Basic styling to mimic the image layout slightly better */
+        body {
+            font-family: sans-serif; /* Common default font */
+        }
+        label {
+            display: inline-block; /* Allows setting width if needed, helps alignment */
+            margin-bottom: 5px;
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 200px; /* Approximate width from image */
+            margin-bottom: 10px; /* Space below inputs */
+            display: block; /* Make inputs take full line */
+            box-sizing: border-box; /* Include padding/border in width */
+        }
+        textarea {
+            height: 80px; /* Approximate height */
+        }
+        table {
+            margin-top: 15px; /* Space above table */
+            margin-bottom: 15px; /* Space below table */
+            border-collapse: collapse; /* Removes default spacing between cells */
+        }
+        td {
+             padding-right: 15px; /* Add some space between table columns */
+        }
+         h1, h2, p, ol, table, form {
+            margin-bottom: 15px; /* Consistent spacing below elements */
+         }
+         ol {
+            margin-left: 20px; /* Indent list */
+         }
+    </style>
+</head>
+<body>
+
+<h1>Welcome to my website!</h1>
+
+<p>This is the home page of my website.</p>
+
+<h2>About Me</h2>
+
+<p>My name is John Doe and I'm a web developer.</p>
+
+<ol>
+    <li>HTML5</li>
+    <li>CSS3</li>
+    <li>JavaScript</li>
+</ol>
+
+<table>
+    <tr>
+        <td>Row 1, Column 1</td>
+        <td>Row 1, Column 2</td>
+    </tr>
+    <tr>
+        <td>Row 2, Column 1</td>
+        <td>Row 2, Column 2</td>
+    </tr>
+</table>
+
+<h2>Contact Me</h2>
+
+<form action="#" method="post">  
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name"><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br>
+
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message"></textarea><br>
+
+    <input type="submit" value="Send">
+</form>
+
+<p>Write some content here</p>
+<p>write Some more content here</p>
+
+</body>
+</html>
